@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<!-- Example - 1 - start  -->
+<!-- this example, we remove the button and element to display the result. 
+Then we add a click event handler to the button, and when the user clicks it,
+the text in the displayed elements is updated. -->
+    <button id="myButton">Click me!</button>
+    <p id="output"></p>
+<!-- Example - 1 - end  -->
+
+
+<!-- Example - 2 - start  -->
+<!-- In this example, we are following the input event on the text input field.
+When the user enters text, we update the output element with the entered value. -->
+    <input type="text" id="textInput">
+    <p id="output2"></p>
+<!-- Example - 2 - end  -->
+
+
+<!-- Example - 3 - start  -->
+<!-- In this example, we define a contextmenu event handler on an element. 
+When the user right-clicks on this element, we prevent the standard context 
+menu from opening and display a message in the output element.
+These examples demonstrate the use of events and callbacks to respond to user actions on a page. -->
+    <div id="contextMenu">
+      Right-click me LeftMouseButton
+    </div>
+    <p id="output3"></p>
+<!-- Example - 3 - end  -->
+
+
+<script src="index.js"></script>
+
+</body>
+</html>
